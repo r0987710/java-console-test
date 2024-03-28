@@ -37,6 +37,6 @@ jobs:
         uses: docker/login-action@v1
         with:
           username: ${{ secrets.maan573 }}
-          password: ${{ secrets.Pssw0rd#2023 }}
+          password: ${{ secrets.Abdulmohsin9384729 }}
       - name: Push the image to Docker Hub
         run: docker push ${{ secrets.maan573 }}/java-console-test:latest
